@@ -1,8 +1,6 @@
- Data Visualization Dashboard
+# Data Visualization Dashboard
 
 ## Description
-
-<DESCRIPTION>
 
 This project is a data visualization dashboard developed using Django, PostgreSQL, and D3.js. It aims to provide interactive visual insights into the provided dataset, focusing on various variables such as intensity, likelihood, relevance, year, country, topics, region, and city.
 
@@ -23,83 +21,49 @@ This project is a data visualization dashboard developed using Django, PostgreSQ
 - D3.js
 - Node.js and npm (for D3.js and Bootstrap)
 
-
-
 ### Setup
 
 1. **Clone the repository**
 
-<<<<<<< HEAD
 git clone <https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js>
-=======
-git clone https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js
->>>>>>> 0600b8906276ab9d735ba32b7b4dee6bfe09c83c
-
 cd data_visualization
-
-
 
 2. **Install Python dependencies**
 
-
 pip install -r requirements.txt
-
 
 3. **Set up PostgreSQL database**
 
-
 - Create a new PostgreSQL database.
-- Update the `DATABASES` configuration in `settings.py`  (line number 86 to 94)
-<<<<<<< HEAD
-=======
-
->>>>>>> 0600b8906276ab9d735ba32b7b4dee6bfe09c83c
+- Update the `DATABASES` configuration in `settings.py` (line number 86 to 94).
 
 4. **Run migrations**
 
-
-<<<<<<< HEAD
-=======
 python manage.py makemigrations
 python manage.py migrate
 
-
->>>>>>> 0600b8906276ab9d735ba32b7b4dee6bfe09c83c
 5. **Load the dataset**
 
 - Use the provided script to load the dataset into your database.
 
-  ```
-  python manage.py loaddata jsdata.json
-  ```
-
+python manage.py loaddata jsdata.json
 
 6. **Run the development server**
 
-
 python manage.py runserver
-
 
 Visit `http://localhost:8000` in your browser to view the dashboard.
 
-
 ## Usage
-
 
 - Navigate through the dashboard to view different data visualizations.
 - Use the filter options provided to refine the visualizations based on specific criteria.
 - API endpoints can be accessed for custom data retrieval.
 
-
-<<<<<<< HEAD
-Document your API endpoints here, with examples of usage (i will add this here shortly).
-=======
 ## API Reference
 
 Document your API endpoints here, with examples of usage (i will add this here shortly).
 
->>>>>>> 0600b8906276ab9d735ba32b7b4dee6bfe09c83c
-
 ## Contact
 
-For any queries, you can reach out to `schnaror@gmail.com`.
+For any queries, you can reach out to <schnaror@gmail.com> or WhatsApp : 0919560330483
