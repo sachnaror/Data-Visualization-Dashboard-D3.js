@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 
 - Create a new PostgreSQL database.
-- Update the `DATABASES` configuration in `<YOUR_PROJECT_NAME>/settings.py` with your database details.
+- Update the `DATABASES` configuration in `settings.py`  (line number 86 to 94)
 
 
 4. **Run migrations**
