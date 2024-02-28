@@ -29,11 +29,8 @@ This project is a data visualization dashboard developed using Django, PostgreSQ
 
 1. **Clone the repository**
 
-<<<<<<< HEAD
+
 git clone <https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js>
-=======
-git clone https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js
->>>>>>> 0600b8906276ab9d735ba32b7b4dee6bfe09c83c
 
 cd data_visualization
 
