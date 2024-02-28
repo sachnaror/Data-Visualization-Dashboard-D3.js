@@ -1,4 +1,4 @@
-# <YOUR_PROJECT_NAME> Data Visualization Dashboard
+ Data Visualization Dashboard
 
 ## Description
 
