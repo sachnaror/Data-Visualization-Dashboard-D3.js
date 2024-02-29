@@ -25,13 +25,13 @@ This project is a data visualization dashboard developed using Django, PostgreSQ
 
 1. **Clone the repository**
 
-git clone <https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js>
+   git clone <https://github.com/sachnaror/Data-Visualization-Dashboard-D3.js>
 
-cd data_visualization
+   cd data_visualization
 
 2. **Install Python dependencies**
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. **Set up PostgreSQL database**
 
@@ -40,18 +40,18 @@ pip install -r requirements.txt
 
 4. **Run migrations**
 
-python manage.py makemigrations
-python manage.py migrate
+   python manage.py makemigrations
+   python manage.py migrate
 
 5. **Load the dataset**
 
-- Use the provided script to load the dataset into your database.
+   - Use the provided script to load the dataset into your database.
 
-python manage.py loaddata jsdata.json
+   python manage.py loaddata jsdata.json
 
 6. **Run the development server**
 
-python manage.py runserver
+   python manage.py runserver
 
 Visit `http://localhost:8000` in your browser to view the dashboard.
 
